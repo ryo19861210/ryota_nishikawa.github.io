@@ -3,25 +3,23 @@
 
 <head>
   <meta charset="utf-8">
-  <title>EG work-out</title>
-  <meta name="description" content="パーソナルトレーナー紹介サイトです。">
+  <title>パーソナルトレーニングジム</title>
+  <meta name="description" content="パーソナルトレーニングジムサイト">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <script src="https://kit.fontawesome.com/e8da8253bb.js" crossorigin="anonymous"></script>
-  <script src="script.js"></script>
+  <script src="js/script.js"></script>
 </head>
 
 <body>
   <header id="header">
     <div class="logo">
-      <a href="index.html">
-        <img src="https://raw.githubusercontent.com/ryo19861210/ryo19861210.github.io/main/%E4%BC%9A%E7%A4%BE%E3%83%AD%E3%82%B4.jpg">
-      </a>
+
     </div>
     <nav class="header__nav nav" id="js-nav">
       <ul class="nav__items nav-items">
@@ -41,18 +39,18 @@
   <main>
     <!-- メイン画像ここから -->
     <div class="mainvisual">
-      <img src="https://raw.githubusercontent.com/ryo19861210/ryo19861210.github.io/main/%E3%83%A1%E3%82%A4%E3%83%B3%E7%94%BB%E5%83%8F.jpeg" alt="カウンセリング写真">
+      <img src="/img/mainvisual.jpg" alt="カウンセリング写真">
       <div id="title">
-        <h2 class="title">貴方の人生を変える全く新しいトレーニングメソッド</h2>
-        <h1 class="text">
-          挫折を味わった漢達が送る
-        </h1>
-        <h1 class="text">
-          至極の時間
-        </h1>
+        <h2 class="title">貴方の理想と健康を全力でサポートします</h2>
+        <p class="text">
+          1人1人の悩みに寄り添った
+        </p>
+        <p class="text">
+          最適解を導き出す
+        </p>
         <p class="sub_text">
           累計500名越えの指導実績</br>
-          １ヶ月で体質改善。
+          ２ヶ月で体質改善。
         </p>
         <button id="free_button">まずは、無料カウンセリング</button>
       </div>
@@ -76,8 +74,8 @@
           </p>
         </div>
         <ul class="contents">
-          <li class="content">
-            <img src="https://raw.githubusercontent.com/ryo19861210/ryo19861210.github.io/main/service1.jpeg" alt="女性トレーニング写真">
+          <li class="content __sp">
+            <img src="/img/undo.jpg" alt="女性トレーニング写真">
             <h3 class="number">01</h3>
             <h2 class="service_name">運動指導</h2>
             <p class="service_profile">骨格・筋肉量や呼吸の状態を診断し</br>
@@ -85,15 +83,15 @@
             </p>
           </li>
           <li class="content">
-            <img src="https://raw.githubusercontent.com/ryo19861210/ryo19861210.github.io/main/service2.jpeg" alt="カウンセリング写真">
+            <img src="/img/food.webp" alt="カウンセリング写真">
             <h3 class="number">02</h3>
             <h2 class="service_name">食事指導</h2>
-            <p class="service_profile">24時間365日対応可能！</br>
-              LINEで気軽に相談できます
+            <p class="service_profile">LINEで気軽に相談</br>
+              無理のないダイエットを応援します！
             </p>
           </li>
           <li class="content">
-            <img src="https://raw.githubusercontent.com/ryo19861210/ryo19861210.github.io/main/3497852_s.jpg" alt="女性PC写真">
+            <img src="/img/3497852_s.jpg" alt="女性PC写真">
             <h3 class="number">03</h3>
             <h2 class="service_name">オンライン指導</h2>
             <p class="service_profile">ご自宅でも目標達成ができるように</br>
@@ -101,7 +99,7 @@
             </p>
           </li>
         </ul>
-        <button id="service_button">サービスの詳しい内容</button>
+        <button id="service_button" onclick="window.open('https://instagram.com/n.ryota1208?igshid=YmMyMTA2M2Y=')">体験セッションはこちら</button>
       </section>
       <!-- サービスの特徴ここまで -->
 
@@ -119,38 +117,35 @@
         <div class="voice">
           <ul class="slider">
             <li class="slider_item">
-              <img src="https://raw.githubusercontent.com/ryo19861210/ryo19861210.github.io/main/voice.jpeg" alt="片足を上げている女性の画像">
+              <img src="/img/undo.jpg" alt="片足を上げている女性の画像">
               <div class="voice_content">
                 <h3 class="voice_profile">
                   20代・女性
                 </h3>
                 <p class="voice_text">
-                  今まで、色んなパーソナルジムに通ったことがありますが、正直どれも辛くて続けることができませんでした。ですが、EG
-                  work-outには知識豊富で精神面にも寄り添ってくれるトレーナーばかりでおかげで運動が苦手な私も続けることができました。栄養指導も単に制限するのではなく、私に必要なものを分かりやすく説明していただけて失敗せず、結果を出すことができました。目標達成後も自分で体重管理をする際の注意点もお教えいただき、本当に私の身体のことを考えてくれているんだなと実感しました。
+                  今まで、色んなパーソナルジムに通ったことがありますが、正直どれも辛くて続けることができませんでした。ですが、西川トレーナーは知識豊富で精神面にも寄り添ってくれる方でおかげで運動が苦手な私も続けることができました。栄養指導も単に制限するのではなく、私に必要なものを分かりやすく説明していただけて失敗せず、結果を出すことができました。目標達成後も自分で体重管理をする際の注意点もお教えいただき、本当に私の身体のことを考えてくれているんだなと実感しました。
                 </p>
               </div>
             </li>
             <li class="slider_item">
-              <img src="https://raw.githubusercontent.com/ryo19861210/ryo19861210.github.io/main/voice.jpeg" alt="片足を上げている女性の画像">
+              <img src="/img/undo.jpg" alt="片足を上げている女性の画像">
               <div class="voice_content">
                 <h3 class="voice_profile">
                   20代・女性
                 </h3>
                 <p class="voice_text">
-                  今まで、色んなパーソナルジムに通ったことがありますが、正直どれも辛くて続けることができませんでした。ですが、EG
-                  work-outには知識豊富で精神面にも寄り添ってくれるトレーナーばかりでおかげで運動が苦手な私も続けることができました。栄養指導も単に制限するのではなく、私に必要なものを分かりやすく説明していただけて失敗せず、結果を出すことができました。目標達成後も自分で体重管理をする際の注意点もお教えいただき、本当に私の身体のことを考えてくれているんだなと実感しました。
+                  今まで、色んなパーソナルジムに通ったことがありますが、正直どれも辛くて続けることができませんでした。ですが、西川トレーナーは知識豊富で精神面にも寄り添ってくれる方でおかげで運動が苦手な私も続けることができました。栄養指導も単に制限するのではなく、私に必要なものを分かりやすく説明していただけて失敗せず、結果を出すことができました。目標達成後も自分で体重管理をする際の注意点もお教えいただき、本当に私の身体のことを考えてくれているんだなと実感しました。
                 </p>
               </div>
             </li>
             <li class="slider_item">
-              <img src="https://raw.githubusercontent.com/ryo19861210/ryo19861210.github.io/main/voice.jpeg" alt="片足を上げている女性の画像">
+              <img src="/img/undo.jpg" alt="片足を上げている女性の画像">
               <div class="voice_content">
                 <h3 class="voice_profile">
                   20代・女性
                 </h3>
                 <p class="voice_text">
-                  今まで、色んなパーソナルジムに通ったことがありますが、正直どれも辛くて続けることができませんでした。ですが、EG
-                  work-outには知識豊富で精神面にも寄り添ってくれるトレーナーばかりでおかげで運動が苦手な私も続けることができました。栄養指導も単に制限するのではなく、私に必要なものを分かりやすく説明していただけて失敗せず、結果を出すことができました。目標達成後も自分で体重管理をする際の注意点もお教えいただき、本当に私の身体のことを考えてくれているんだなと実感しました。
+                  今まで、色んなパーソナルジムに通ったことがありますが、正直どれも辛くて続けることができませんでした。ですが、西川トレーナーは知識豊富で精神面にも寄り添ってくれる方でおかげで運動が苦手な私も続けることができました。栄養指導も単に制限するのではなく、私に必要なものを分かりやすく説明していただけて失敗せず、結果を出すことができました。目標達成後も自分で体重管理をする際の注意点もお教えいただき、本当に私の身体のことを考えてくれているんだなと実感しました。
                 </p>
               </div>
             </li>
@@ -169,43 +164,26 @@
             トレーナー紹介
           </h2>
         </div>
-        <ul class="slider2">
-          <li class="slider-item2">
-            <img src="https://raw.githubusercontent.com/ryo19861210/ryo19861210.github.io/main/%E8%8F%85%E5%8E%9F%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8A%E3%83%BC.jpeg" alt="トレーナー画像">
+        <ul class="trainers">
+          <li class="trainers1">
+            <img src="/img/trainer.jpg" alt="トレーナー画像">
             <h3 class="trainer_name">
-              菅原 章弘
+              西川 広大
             </h3>
-            <p class="hash_tag">
+            <div class="hash_tag">
+            <p class="hash_tag__child">
               # 運動指導
             </p>
-            <p class="trainer_profile">
-              大手フィットネスクラブ勤務後、
-              EG work-outを設立。
-              パーソナルトレーナーとして運動や呼吸を武器に
-              多くのクライアントの目標実現をサポート。
-              軽視されがちな呼吸に着目することで
-              生活代謝を促進させるダイエット成功の案内人。
+            <p class="hash_tag__child">
+              # 栄養指導
             </p>
-          </li>
-          <li class="slider-item2">
-            <img src="https://raw.githubusercontent.com/ryo19861210/ryo19861210.github.io/main/%E5%B7%9D%E4%B8%8A%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8A%E3%83%BC.jpeg" alt="トレーナー画像">
-            <h3 class="trainer_name">
-              川上 健太
-            </h3>
-            <p class="hash_tag">
-              # 食事指導
-            </p>
+          </div>
             <p class="trainer_profile">
-              大手フィットネスクラブ勤務後、
-              EG work-outを設立。
-              パーソナルトレーナーとして運動や呼吸を武器に
-              多くのクライアントの目標実現をサポート。
-              軽視されがちな呼吸に着目することで
-              生活代謝を促進させるダイエット成功の案内人。
+              テキストが入ります。
             </p>
           </li>
         </ul>
-        <button id="service_button2">無料でプロの指導を体験</button>
+        <button id="service_button2" onclick="window.open('https://instagram.com/n.ryota1208?igshid=YmMyMTA2M2Y=')">無料でプロの指導を体験</button>
       </section>
       <!-- トレーナー紹介ここまで -->
 
@@ -224,7 +202,7 @@
           <!-- 徹底管理コースはここから -->
           <div class="course1">
             <div id="course1">
-              <img src="https://raw.githubusercontent.com/ryo19861210/ryo19861210.github.io/main/%E3%82%AF%E3%82%99%E3%83%AB%E3%83%BC%E3%83%95%E3%82%9A%2028.png">
+              <img src="/img/グループ 28.png">
               <h4 class="course_title">
                 短時間で成果を出す
               </h4>
@@ -238,34 +216,34 @@
                 サービス内容
               </h4>
               <div class="checkbox">
-                <img src="https://raw.githubusercontent.com/ryo19861210/ryo19861210.github.io/main/%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%83%9B%E3%82%99%E3%83%83%E3%82%AF%E3%82%B9.png" alt="チェックボックスの写真">
+                <img src="/img/チェックボックス.png" alt="チェックボックスの写真">
                 <p class="course_text">月8回のトレーニング指導（1回60分）</p>
               </div>
               <div class="checkbox">
-                <img src="https://raw.githubusercontent.com/ryo19861210/ryo19861210.github.io/main/%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%83%9B%E3%82%99%E3%83%83%E3%82%AF%E3%82%B9.png" alt="チェックボックスの写真">
+                <img src="/img/チェックボックス.png" alt="チェックボックスの写真">
                 <p class="course_text">毎日のトークによる食事指導</p>
               </div>
               <div class="checkbox">
-                <img src="https://raw.githubusercontent.com/ryo19861210/ryo19861210.github.io/main/%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%83%9B%E3%82%99%E3%83%83%E3%82%AF%E3%82%B9.png" alt="チェックボックスの写真">
+                <img src="/img/チェックボックス.png" alt="チェックボックスの写真">
                 <p class="course_text">ダイエットの質問が無制限</p>
               </div>
               <div class="checkbox">
-                <img src="https://raw.githubusercontent.com/ryo19861210/ryo19861210.github.io/main/%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%83%9B%E3%82%99%E3%83%83%E3%82%AF%E3%82%B9.png" alt="チェックボックスの写真">
+                <img src="/img/チェックボックス.png" alt="チェックボックスの写真">
                 <p class="course_text">自宅用トレーニングメニューの作成</p>
               </div>
               <div class="checkbox">
-                <img src="https://raw.githubusercontent.com/ryo19861210/ryo19861210.github.io/main/%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%83%9B%E3%82%99%E3%83%83%E3%82%AF%E3%82%B9.png" alt="チェックボックスの写真">
+                <img src="/img/チェックボックス.png" alt="チェックボックスの写真">
                 <p class="course_text">月8回のオンライン指導（1回30分）</p>
               </div>
               <div class="checkbox_last">
-                <img src="https://raw.githubusercontent.com/ryo19861210/ryo19861210.github.io/main/%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%83%9B%E3%82%99%E3%83%83%E3%82%AF%E3%82%B9.png" alt="チェックボックスの写真">
+                <img src="/img/チェックボックス.png" alt="チェックボックスの写真">
                 <p class="course_text">サービス継続割引き対象プラン</p>
               </div>
               <div class="price">
                 <h2>￥58,000</h2>
                 <p>（税込）</p>
               </div>
-              <button id="course_button">徹底管理コースをはじめる</button>
+              <button id="course_button" onclick="window.open('https://instagram.com/n.ryota1208?igshid=YmMyMTA2M2Y=')">徹底管理コースをはじめる</button>
             </div>
           </div>
           <!-- 徹底管理コースはここまで -->
@@ -286,34 +264,34 @@
                 サービス内容
               </h4>
               <div class="checkbox">
-                <img src="https://raw.githubusercontent.com/ryo19861210/ryo19861210.github.io/main/%E7%A9%BA%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%83%9B%E3%82%99%E3%83%83%E3%82%AF%E3%82%B9.png" alt="チェックボックスの写真">
+                <img src="/img/空チェックボックス.png" alt="チェックボックスの写真">
                 <p class="course_text_blank">月8回のトレーニング指導（1回60分）</p>
               </div>
               <div class="checkbox">
-                <img src="https://raw.githubusercontent.com/ryo19861210/ryo19861210.github.io/main/%E7%A9%BA%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%83%9B%E3%82%99%E3%83%83%E3%82%AF%E3%82%B9.png" alt="チェックボックスの写真">
+                <img src="/img/空チェックボックス.png" alt="チェックボックスの写真">
                 <p class="course_text_blank">毎日のトークによる食事指導</p>
               </div>
               <div class="checkbox">
-                <img src="https://raw.githubusercontent.com/ryo19861210/ryo19861210.github.io/main/%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%83%9B%E3%82%99%E3%83%83%E3%82%AF%E3%82%B9.png" alt="チェックボックスの写真">
+                <img src="/img/チェックボックス.png" alt="チェックボックスの写真">
                 <p class="course_text">ダイエットの質問が無制限</p>
               </div>
               <div class="checkbox">
-                <img src="https://raw.githubusercontent.com/ryo19861210/ryo19861210.github.io/main/%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%83%9B%E3%82%99%E3%83%83%E3%82%AF%E3%82%B9.png" alt="チェックボックスの写真">
+                <img src="/img/チェックボックス.png" alt="チェックボックスの写真">
                 <p class="course_text">自宅用トレーニングメニューの作成</p>
               </div>
               <div class="checkbox">
-                <img src="https://raw.githubusercontent.com/ryo19861210/ryo19861210.github.io/main/%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%83%9B%E3%82%99%E3%83%83%E3%82%AF%E3%82%B9.png" alt="チェックボックスの写真">
+                <img src="/img/チェックボックス.png" alt="チェックボックスの写真">
                 <p class="course_text">月8回のオンライン指導（1回30分）</p>
               </div>
               <div class="checkbox_last">
-                <img src="https://raw.githubusercontent.com/ryo19861210/ryo19861210.github.io/main/%E7%A9%BA%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%83%9B%E3%82%99%E3%83%83%E3%82%AF%E3%82%B9.png" alt="チェックボックスの写真">
+                <img src="/img/空チェックボックス.png" alt="チェックボックスの写真">
                 <p class="course_text_blank">サービス継続割引き対象プラン</p>
               </div>
               <div class="price">
                 <h2>￥28,000</h2>
                 <p>（税込）</p>
               </div>
-              <button id="online_course_button">オンラインコースをはじめる</button>
+              <button id="online_course_button" onclick="window.open('https://instagram.com/n.ryota1208?igshid=YmMyMTA2M2Y=')">オンラインコースをはじめる</button>
             </div>
           </div>
           <!-- オンラインコースはここまで -->
@@ -325,16 +303,13 @@
   <footer id="footer">
     <div class="footer_menu">
       <nav class="footer_nav">
-        <a href="https://www.b-mall.ne.jp/CompanyDetail-IZbqCQjuIVhy.html" target="_blank">
-          <p>会社概要</p>
-        </a>
         <ul class="socialEffect__box">
           <li>
-            <a class="socialEffect__link icon-instagram" href="https://www.instagram.com/eg_workout.llc/"
+            <a class="socialEffect__link icon-instagram" href="https://instagram.com/n.ryota1208?igshid=YmMyMTA2M2Y="
               target="_blank"><i class="fab fa-instagram"></i
             ></a>
           </li>
-          <li>
+          <!-- <li>
             <a class="socialEffect__link icon-youtube" href="https://www.youtube.com/channel/UCkwhhnps3j95aIVvytNyPTg" target="_blank"
               ><i class="fa-brands fa-youtube"></i></a>
           </li>
@@ -342,15 +317,11 @@
             <a class="socialEffect__link icon-twitter" href="https://twitter.com/aki_eg_workout" target="_blank"
               ><i class="fab fa-twitter"></i
             ></a>
-          </li>
+          </li> -->
         </ul>
       </nav>
-      <div class="footer_logo">
-        <a href="#"><img src="https://raw.githubusercontent.com/ryo19861210/ryo19861210.github.io/main/%E4%BC%9A%E7%A4%BE%E3%83%AD%E3%82%B4.jpg" alt="会社
-      ロゴ"></a>
-      </div>
     </div>
-    <p class="copy">Copylight &copy;EG work-out All rights reserved.</p>
+    <p class="copy">Copylight &copy;Ryota Nishikawa All rights reserved.</p>
   </footer>
 </body>
 
